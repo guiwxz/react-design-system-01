@@ -1,0 +1,22 @@
+instala
+-- tailwindcss
+-- postcss
+-- autoprefixer
+
+roda pra criar configs do tailwind
+-- npx tailwindcss init -p
+
+adiciona no arquivo tailwind.config
+  content: [
+    './src/**/*.tsx'
+  ],
+
+cria o global.css e adiciona
+-- @tailwind base;
+-- @tailwind utilities;
+-- @tailwind components;
+
+STORYBOOK
+npx sb init --builder @storybook/builder-vite --use-npm
+
+npm run storybook
